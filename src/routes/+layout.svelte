@@ -1,50 +1,12 @@
 <script>
-	  import "../app.postcss";
+	  import Navbar from "$lib/components/Navbar.svelte";
+import "../app.postcss";
 </script>
 
-<div class="app">
-	<main>
+<div class="min-h-screen">
+	<Navbar />
+	<main class="w-full flex flex-col">
 		<slot />
 	</main>
-
-	<footer>
-		<p class="text-red-500">visit <a href="https://kit.svelte.dev" class="text-red-500">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
 </div>
 
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
