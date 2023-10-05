@@ -13,9 +13,9 @@
   <NavUl {hidden}>
     <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/">Inicio</NavLi>
     <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/products">Productos</NavLi>
-    <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/cotizador">Cotizador</NavLi>
+    <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/cotizador">TOB Labs</NavLi>
     <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/clientes">Clientes</NavLi>
-    <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/comisiones">Comisiones</NavLi>
+    <NavLi on:click={toggle} class="lg:text-white text-md uppercase font-medium" nonActiveClass="hover:text-basa-gold transition-colors" href="/comisiones">Contacto</NavLi>
     <button class="text-white flex items-center uppercase">Idioma<ChevronDownSolid class="w-3 h-3 ml-2 text-white dark:text-white"/></button>
     <Dropdown>
       <DropdownItem class="flex gap-2 items-center hover:bg-gray-200 transition-colors">
